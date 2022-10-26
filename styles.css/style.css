@@ -1,0 +1,36 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 3em;
+}
+a {
+    margin-right: 20px;
+    padding-right: 10px;
+}
+body { 
+    background-color: beige;
+}
+.img {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.navbar-link:hover {
+    background-color: blue;
+}
+form {
+    text-align: center;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+h1 {
+    text-align: center;
+}
